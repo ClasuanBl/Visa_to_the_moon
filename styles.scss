@@ -10,8 +10,8 @@ body{
    
 .container{
     display: flex;
-    width: 1140px;
-    height: 1140px;
+    width: 100vw;
+    height: 100vh;
       
 }
 .capa1{
@@ -23,65 +23,65 @@ body{
 .capa2{
     position: absolute;
     z-index: 2;
-    padding-left: 100px;
-    top: 50px;
+    padding-left: 8vw;
+    top: 7vh;
 }
 
 .capa3{
     position: absolute;
     z-index: 3;
-    padding-left: 340px;
-    height: 100px;   
+    padding-left: 55vh;
+    height:100vh;   
 }
 
 .back{
-    height: 592px;
+    height: 94.5vh;
 }
 
 .capa4{
     position: absolute;
     z-index: 4;
-    padding-left: 400px;
-    top:35px;
+    padding-left: 60vh;
+    top:7vh;
 }
 .capa6{
     font-family: 'Merriweather', serif;
     position: absolute;
     z-index: 6;
-    top: 120px;
-    padding-left: 400px;
+    top: 21vh;
+    padding-left: 60vh;
     color:white;
 }
 .capa7{
     font-family: 'Montserrat', sans-serif;
     position: absolute;
     z-index: 7;
-    top: 300px;
-    padding-left: 270px;
+    top: 45vh;
+    padding-left: 45vh;
     color:white;
     font-size:xx-large;
 }
 
 .capa5{
     position: absolute;
-    padding-left: 870px;
+    padding-left: 139vh;
     z-index: 5;
-    top:450;
+    top:1.2vh;
 }
 .imagen5{
-    width: 350px;
-    height: 442px;
-    object-fit: cover;
+    width: 25vw;
+    height: 68.5vh;
+    object-fit:cover;
 }
 .capa8{
     position:absolute;
     z-index: 8;
-    top: 450px;
-    padding-left: 619px;
+    top: 71vh;
+    padding-left: 105vh;
 }
 .loading{
-    width: 250px;
-    height: 100px;
+    width: 15vw;
+    height: 15vh;
 }
 .prev{
     font-family: 'Merriweather', serif;
@@ -94,8 +94,8 @@ body{
     font-size:large;
     position:absolute;
     z-index: 9;
-    top: 550px;
-    padding-left: 670px;
+    top: 88vh;
+    padding-left: 108vh;
     color:lightgray;
 }
 
